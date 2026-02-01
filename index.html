@@ -189,6 +189,22 @@ button { font-family: inherit; cursor: pointer; }
       <p style="color: #6B5A51">Todos os direitos reservados por: Debora Martins ©. Contato:
 suportedebora@gmail.com</p>
     </footer>
+
+    <div class="carousel-block" style="margin: 16px 12px;">
+      
+      <div id="carousel-72f56ba2" class="carousel-container" data-autoplay="false" data-autoplay-speed="3000" data-loop="true" style="position: relative; height: 250px; background-color: transparent; border-radius: 16px; box-shadow: 0 4px 12px rgba(0,0,0,0.15); overflow: hidden; padding: 0px;">
+        <div class="carousel-track" style="display: flex; height: 100%; transition: transform 0.3s ease;">
+          <div class="carousel-slide" style="min-width: 100%; height: 100%;"><img src="https://mlwywdyrvneqxvycmaba.supabase.co/storage/v1/object/public/biolink-images/carousel/879e496b-ef4c-45fe-b831-3679d75b6ba8.png" alt="" style="width: 100%; height: 100%; object-fit: cover; border-radius: 16px;"></div><div class="carousel-slide" style="min-width: 100%; height: 100%;"><img src="https://mlwywdyrvneqxvycmaba.supabase.co/storage/v1/object/public/biolink-images/carousel/a77c4dbd-70b0-4aed-8084-fb71b4078457.jpg" alt="" style="width: 100%; height: 100%; object-fit: cover; border-radius: 16px;"></div><div class="carousel-slide" style="min-width: 100%; height: 100%;"><img src="https://mlwywdyrvneqxvycmaba.supabase.co/storage/v1/object/public/biolink-images/carousel/4ec8d6c6-dd82-450f-b4e3-62b11e038ce9.png" alt="" style="width: 100%; height: 100%; object-fit: cover; border-radius: 16px;"></div>
+        </div>
+        
+        <button class="carousel-arrow carousel-prev" onclick="moveCarousel('carousel-72f56ba2', -1)" style="position: absolute; left: 8px; top: 50%; transform: translateY(-50%); width: 32px; height: 32px; background: rgba(0,0,0,0.5); border: none; border-radius: 50%; color: white; cursor: pointer;">‹</button>
+        <button class="carousel-arrow carousel-next" onclick="moveCarousel('carousel-72f56ba2', 1)" style="position: absolute; right: 8px; top: 50%; transform: translateY(-50%); width: 32px; height: 32px; background: rgba(0,0,0,0.5); border: none; border-radius: 50%; color: white; cursor: pointer;">›</button>
+        
+        <div class="carousel-dots" style="position: absolute; bottom: 12px; left: 50%; transform: translateX(-50%); display: flex; gap: 8px;">
+          <button onclick="goToSlide('carousel-72f56ba2', 0)" style="width: 8px; height: 8px; border-radius: 50%; border: none; background: white; cursor: pointer;"></button><button onclick="goToSlide('carousel-72f56ba2', 1)" style="width: 8px; height: 8px; border-radius: 50%; border: none; background: rgba(255,255,255,0.5); cursor: pointer;"></button><button onclick="goToSlide('carousel-72f56ba2', 2)" style="width: 8px; height: 8px; border-radius: 50%; border: none; background: rgba(255,255,255,0.5); cursor: pointer;"></button>
+        </div>
+      </div>
+    </div>
   </div>
   <script>
 (function() {
