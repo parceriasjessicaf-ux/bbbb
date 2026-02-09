@@ -10,7 +10,9 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=sans-serif:ital,wght@0,400;0,500;0,600;0,700;1,400;1,700&family=Poppins:ital,wght@0,400;0,500;0,600;0,700;1,400;1,700&display=swap" rel="stylesheet">
   <link rel="preload" as="image" href="assets/card-3.jpg" fetchpriority="high">
+  <link rel="preload" as="image" href="assets/card-1.jpg">
   <link rel="preload" as="image" href="assets/card-0.jpg">
+  <link rel="preload" as="image" href="assets/card-2.jpg">
   <style>
 *, *::before, *::after { margin: 0; padding: 0; box-sizing: border-box; }
 html { scroll-behavior: smooth; -webkit-text-size-adjust: 100%; }
@@ -53,8 +55,8 @@ button { font-family: inherit; cursor: pointer; }
 
 .animate-block {
   opacity: 0;
-  transform: translateY(-12px);
-  transition: opacity 500ms cubic-bezier(0.2, 0.8, 0.2, 1), transform 500ms cubic-bezier(0.2, 0.8, 0.2, 1);
+  transform: translateY(8px);
+  transition: opacity 500ms cubic-bezier(0.25, 0.1, 0.25, 1), transform 500ms cubic-bezier(0.25, 0.1, 0.25, 1);
 }
 .animate-block.visible {
   opacity: 1;
@@ -176,7 +178,7 @@ Abordagens</h3>
         
           <div class="card-image-wrapper lazy-img-wrapper">
             
-            <img src="assets/card-0.jpg" alt="" class="card-image lazy-img eager-load" loading="eager" fetchpriority="high" decoding="sync" style="object-fit: cover; object-position: 77% 50%; transform: scale(1.6); transform-origin: 77% 50%; position: relative; z-index: 1; border-radius: 0px;">
+            <img src="assets/card-1.jpg" alt="" class="card-image lazy-img eager-load" loading="eager" fetchpriority="high" decoding="sync" style="object-fit: cover; object-position: 77% 50%; transform: scale(1.6); transform-origin: 77% 50%; position: relative; z-index: 1; border-radius: 0px;">
             <div class="card-image-fade" style="background: linear-gradient(to right, transparent 70%, #4772ab 100%); z-index: 2;"></div>
           </div>
         <div class="card-content" style="position: relative; z-index: 3;">
@@ -193,8 +195,8 @@ Abordagens</h3>
         
         
           <div class="card-image-wrapper lazy-img-wrapper">
-            <div class="lazy-img-placeholder"></div>
-            <img src="assets/card-1.jpg" alt="" class="card-image lazy-img" loading="lazy" decoding="async" style="object-fit: cover; object-position: 39% 30%; transform: scale(1.2); transform-origin: 39% 30%; position: relative; z-index: 1; border-radius: 0px;">
+            
+            <img src="assets/card-0.jpg" alt="" class="card-image lazy-img eager-load" loading="eager" fetchpriority="high" decoding="sync" style="object-fit: cover; object-position: 39% 30%; transform: scale(1.2); transform-origin: 39% 30%; position: relative; z-index: 1; border-radius: 0px;">
             
           </div>
         <div class="card-content" style="position: relative; z-index: 3;">
@@ -212,8 +214,8 @@ Agendamento Online</p>
         
         
           <div class="card-image-wrapper lazy-img-wrapper">
-            <div class="lazy-img-placeholder"></div>
-            <img src="assets/card-2.jpg" alt="" class="card-image lazy-img" loading="lazy" decoding="async" style="object-fit: contain; object-position: 47% 0%; transform: scale(2.7); transform-origin: 47% 0%; position: relative; z-index: 1; border-radius: 0px;">
+            
+            <img src="assets/card-2.jpg" alt="" class="card-image lazy-img eager-load" loading="eager" fetchpriority="high" decoding="sync" style="object-fit: contain; object-position: 47% 0%; transform: scale(2.7); transform-origin: 47% 0%; position: relative; z-index: 1; border-radius: 0px;">
             <div class="card-image-fade" style="background: linear-gradient(to right, transparent 70%, #cdb7ac 100%); z-index: 2;"></div>
           </div>
         <div class="card-content" style="position: relative; z-index: 3;">
